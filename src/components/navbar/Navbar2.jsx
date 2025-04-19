@@ -55,7 +55,7 @@ const Navbar2 = () => {
                     <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                   </span>
                 </a>
-                <div className="absolute -left-9 z-[9999] hidden w-[150px] rounded-md bg-white p-2 text-black group-hover:block  ">
+                <div className="absolute -left-9 z-[9999]  w-[150px] rounded-md bg-white p-2 text-black opacity-0 scale-95 invisible group-hover:opacity-100 group-hover:scale-100 group-hover:visible transition-all duration-500 ease-in-out  ">
                   <ul className="space-y-3">
                     <li className="p-2 hover:bg-violet-200">Services</li>
                     <li className="p-2 hover:bg-violet-200">About us</li>
@@ -63,6 +63,8 @@ const Navbar2 = () => {
                   </ul>
                 </div>
               </li>
+
+              
               <li className="cursor pointer group">
                 <a
                   href="/#home"
@@ -73,7 +75,7 @@ const Navbar2 = () => {
                     <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                   </span>
                 </a>
-                <div className="absolute left-0 z-[9999] hidden w-full rounded-b-3xl bg-white p-2 text-black group-hover:block  ">
+                <div className="absolute left-0 z-[9999]  w-full rounded-b-3xl bg-white p-2 text-black opacity-0 scale-95 invisible group-hover:opacity-100 group-hover:scale-100 group-hover:visible transition-all duration-500 ease-in-out ">
                   <div className="grid grid-cols-3 gap-5 ">
                     <div className="d-200 overflow-hidden">
                       <img
@@ -151,12 +153,12 @@ const Navbar2 = () => {
               {theme === "dark" ? (
                 <BiSolidSun
                   onClick={() => setTheme("light")}
-                  className="text-2xl"
+                  className="text-2xl cursor-pointer"
                 />
               ) : (
                 <BiSolidMoon
                   onClick={() => setTheme("dark")}
-                  className="text-2xl"
+                  className="text-2xl cursor-pointer"
                 />
               )}
             </ul>
