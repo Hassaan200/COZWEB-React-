@@ -26,11 +26,11 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>Karachi, Pakistan</p>
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+92 335 95540 95</p>
             </div>
             {/* Social Handle */}
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
-            @copyright 2024 Travery || Dilshad
+            @copyright 2025 All rights reserved
           </div>
         </div>
       </section>
