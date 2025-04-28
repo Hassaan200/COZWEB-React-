@@ -20,7 +20,7 @@ const Banner = () => {
           <div className="order-1">
             <iframe
               className="aspect-video w-full"
-              src="https://www.youtube.com/embed/gRWMen27Uio?si=VtHMh9xCxQ6ccFh8"
+              src="https://www.youtube.com/embed/6xB7Key3Nys?si=-4jxboYw7vcvFHqC"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
